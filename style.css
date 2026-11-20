@@ -399,16 +399,14 @@ body { background: var(--soft); }
   gap: clamp(1.75rem, 6vw, 5rem);
   padding-top: 0;
 }
+#home .hero-copy { container-type: inline-size; }
 #home h1 {
   font-family: Georgia, serif;
-  font-size: clamp(2.25rem, 5vw, 3.65rem);
+  font-size: min(3.65rem, 7.5cqi);
   font-weight: 500;
   letter-spacing: -0.035em;
-}
-.research-title {
-  color: var(--teal);
-  font-weight: 650;
-  margin: 0.55rem 0 1.4rem;
+  white-space: nowrap;
+  margin-bottom: 1rem;
 }
 #home .intro-text { color: var(--ink); }
 #home .quick-links { gap: 0.35rem 1rem; }
